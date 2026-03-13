@@ -1,0 +1,117 @@
+# App di Valutazione Clinica per Studenti di Infermieristica
+
+## Scopo
+Questa repository contiene il **prompt avanzato per creare un’app di valutazione clinica** per studenti del Corso di Laurea in Infermieristica.  
+L’app è ottimizzata per smartphone e tablet, pronta per essere generata in **Google AI Studio** o piattaforme simili.
+
+---
+
+## Prompt da usare
+
+Copia il seguente prompt in Google AI Studio per generare l’app completa:
+
+```text
+Crea una **web app completa per la valutazione clinica degli studenti di Infermieristica**, pronta per l’uso reale da tutor clinici o docenti universitari. L’app deve essere ottimizzata per smartphone e tablet, professionale e scalabile, con tutte le funzioni avanzate già integrate.
+
+---
+
+### 1️⃣ Interfaccia principale
+
+**Header**
+- Titolo: "Corso di Laurea Infermieristica – Valutazione Clinica"
+- Icona accademica/ospedaliera
+- Colore principale: verde sanitario
+- Pulsante menù: Dashboard / Nuova valutazione / Storico
+
+**Sezione ANAGRAFICA**
+- Menu a tendina: Seleziona STUDENTE
+- Campo di testo: Nome TUTOR
+- Campo di testo: REPARTO o SERVIZIO
+- Pulsante “Salva Anagrafica” → memorizza in database
+- Funzione ricerca rapida per studente
+
+**Sezione PERCORSO FORMATIVO**
+- Pulsanti selezione ANNO DI CORSO (1°, 2°, 3°)
+- Alla selezione, mostra **scheda di valutazione precompilata** con campi modificabili
+- Visualizzazione automatica delle competenze e categorie per l’anno selezionato
+
+---
+
+### 2️⃣ Scheda di valutazione clinica avanzata
+
+Per ogni anno di corso:
+
+- **Categorie di valutazione**:
+  1. Tecniche Infermieristiche
+  2. Comunicazione e Relazione
+  3. Sicurezza e Protocollo
+  4. Professionalità e Autonomia
+- Checkbox / slider per ogni competenza (valutazione da 1 a 5)
+- Commenti testuali liberi per ogni categoria
+- **Calcolo automatico punteggio totale** e percentuale per categoria
+- Evidenziazione automatica delle competenze critiche
+- Pulsante “Salva valutazione” → memorizza dati nel database
+- Salvataggio timestamp e tutor
+
+---
+
+### 3️⃣ Dashboard avanzata
+
+- Elenco completo studenti con filtri:
+  - Anno di corso
+  - Reparto/Servizio
+  - Punteggio totale / categoria
+- Visualizzazione **grafici dei progressi** dello studente:
+  - Line chart per punteggio totale nel tempo
+  - Bar chart per punteggio per categoria
+- Storico valutazioni per ogni studente con possibilità di aprire PDF singolo
+- Pulsante “Esporta report multiplo PDF” per più studenti contemporaneamente
+
+---
+
+### 4️⃣ Design e UX
+
+- Layout chiaro, minimale e intuitivo
+- Card per ogni sezione
+- Colori:
+  - Verde principale
+  - Grigio chiaro per sfondi secondari
+  - Colore rosso/arancione per competenze critiche
+- Pulsanti grandi, facilmente cliccabili su mobile
+- Messaggi di conferma per salvataggio e PDF
+
+---
+
+### 5️⃣ Funzioni avanzate integrate
+
+- Database interno o cloud per archiviazione sicura
+- Salvataggio offline limitato (PWA)
+- Esportazione PDF con intestazione, punteggio per categoria e commenti
+- Cronologia completa di tutte le valutazioni
+- Funzione di ricerca rapida studente / reparto
+- Possibilità futura di notifiche push
+- Allegati PDF o immagini per ogni studente
+
+---
+
+### 6️⃣ Extra opzionali (inclusi)
+
+- Schede precompilate per ogni anno con competenze standard
+- Grafici automatici dei progressi dello studente
+- Colore dinamico delle categorie in base al punteggio
+- Dashboard tutor con statistiche aggregate per reparto
+- Esportazione multipla di schede in PDF con riepilogo per tutor o docente
+
+---
+
+### 7️⃣ Obiettivo finale
+
+Creare un’app **chiavi in mano**, pronta all’uso, che permetta ai tutor di:
+
+- Valutare studenti rapidamente e con precisione
+- Archiviare dati in sicurezza
+- Generare report PDF completi
+- Visualizzare grafici dei progressi
+- Tenere traccia dello storico di ogni studente
+
+App pronta per essere generata in **Google AI Studio**, esportata come **PWA o APK**, e utilizzata in ambiente universitario o clinico reale.
